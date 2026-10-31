@@ -119,23 +119,16 @@ Review false positives and false negatives where possible. A model score is a pr
 | Optional review dashboard | Streamlit |
 | Experiment tracking | MLflow or documented experiment logs |
 
-## 📁 Suggested Project Structure
+## 📁 Project Structure
 
 ```text
 aml-alert-triage/
-├── data/
-│   └── README.md
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   └── 02_model_evaluation.ipynb
 ├── src/
 │   ├── config.py
 │   ├── data_utils.py
 │   ├── features.py
 │   ├── model.py
 │   └── main.py
-├── artifacts/
-├── tests/
 ├── requirements.txt
 └── README.md
 ```
